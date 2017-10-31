@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-	long int i,j,x,y,n,ans=0;
+	long long int i,j,x,y,n,ans=0;
 	for(i=0;i<5;i++)
 	{
 		for(j=0;j<5;j++)
@@ -13,6 +13,7 @@ int main() {
 			{
 				x=i+1;
 				y=j+1;
+				int a=0;
 			}
 		}
 	}
@@ -23,7 +24,7 @@ int main() {
 	if(y>3)
 	ans+=y-3;
 	else
-	ans+=3-y;
-	printf("%d",ans);
+	ans=ans+3-y;
+	printf("ll%d",ans);
 	return 0;
 }
