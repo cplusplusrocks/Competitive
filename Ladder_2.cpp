@@ -3,13 +3,12 @@
 using namespace std;
 
 int main() {
-	// your code goes here
-	int i,j,x,y,n,ans=0;
+	long int i,j,x,y,n,ans=0;
 	for(i=0;i<5;i++)
 	{
 		for(j=0;j<5;j++)
 		{
-			scanf("%d",&n);	
+			cin<<n;	
 			if(n!=0)
 			{
 				x=i+1;
