@@ -1,19 +1,19 @@
 #include<bits/stdc++.h>
 using namespace std;
-int a,b,c,x=0,y=0,z=0,n;
+long long int a,b,c,x=0,y=0,z=0,n;
 int main() {
 	// your code goes here
-	scanf("%d",&n);
+	scanf("%lld",&n);
 	for(int loop=0;loop<n;loop++)
 	{
-		scanf("%d%d%d",&a,&b,&c);
+		scanf("%lld%lld%lld",&a,&b,&c);
 		x+=a;
 		y+=b;
 		z+=c;
 	}
 	if(x==0&&y==0&&z==0)
-	printf("YES");
+	printf("YES\n");
 	else
-	printf("NO");
+	printf("NO\n");
 	return 0;
 }
